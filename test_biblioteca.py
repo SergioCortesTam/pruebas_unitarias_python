@@ -39,7 +39,7 @@ def test_biblioteca_listar_libros():
     biblioteca = Biblioteca()
     libro1 = Libro("DI", "Ofelia", 2020)
     libro2 = Libro("GitHub", "Carlos", 2019)
-    libro3 = Libro("AccesoDatos", "Alfonso", 2018)
+    libro3 = Libro("AcesoDatos", "Alfonso", 2018)
     biblioteca.agregar_libro(libro1)
     biblioteca.agregar_libro(libro2)
     biblioteca.agregar_libro(libro3)
